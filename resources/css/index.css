@@ -1,0 +1,688 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+
+/*
+--Navigation Bar Styling
+*/
+
+#navbar{
+  position: fixed;
+
+  width: 100%;
+  height:10%;
+
+  border-bottom: 2px solid darkolivegreen;
+  background-color: darkseagreen;
+
+  margin: 0 auto;
+  overflow: hidden;
+
+  opacity: 95%;
+}
+
+
+#navbar ul{
+  list-style: none;
+  text-align: center;
+}
+
+#navbar ul li{
+  display: inline-block;
+  vertical-align: top;
+
+  color: black;
+  font-family: Helvetica;
+
+  margin: 0;
+  padding: 0.5rem;
+  padding-top: 1.5rem;
+}
+
+#navbar ul li a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  color: black;
+}
+
+#logo{
+  display: inline-block;
+  float: left;
+  width: 4rem;
+  padding: 0.5%;
+  padding-top: 0.5%;
+
+}
+
+#truong{
+display:inline-block;
+float: left;
+vertical-align: center;
+}
+/*
+--Landing Page Styling
+*/
+
+#truong{
+  font-weight: bold;
+  font-family: Georgia;
+}
+
+
+#me{
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+
+  background-color: black;
+  background-image: url('landing.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 70%;
+
+
+  border: 0;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  color: white;
+  font-size: 3rem;
+  font-family: Helvetica;
+}
+
+#intro{
+    background-color: white;
+    background-image: url('paper.jpg');
+    color: black;
+}
+
+#name{
+    display: inline-block;
+    font-family: "courier new";
+}
+
+#welcome{
+  display: inline-block;
+  font-family: "papyrus";
+  font-size: 1rem;
+}
+
+#main_part{
+  font-weight: bold;
+  font-size: 250rem;
+
+}
+
+
+#cost{
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+}
+
+.resume-picture{
+  max-width: 95%;
+  max-height: 95%;
+}
+
+
+/*
+--About Me Styling
+*/
+
+
+.autobi{
+  background-color: white;
+  background-image: url('paper2.jpg');
+  background-position: center;
+  background-attachment: fixed;
+
+  display: inline-block;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  width: 100%;
+
+  text-align: center;
+  font-family: "papyrus";
+}
+
+.autobi h2{
+  color: DarkOliveGreen;
+}
+
+.autobi img{
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+hr{
+  width:70%;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.autobox{
+  content: "";
+  display: table;
+
+  clear: both;
+  margin: 0 0%;
+  margin-left:auto;
+  margin-right:auto;
+
+  padding: 4%;
+}
+
+.profile_left, .profile_mid, .profile_right{
+    float: left;
+    width: 33%;
+
+}
+
+.midimage{
+  width: 80%;
+
+  padding: 0;
+  margin: 0;
+}
+
+.textpara{
+  background-color: cornsilk;
+  padding: 2%;
+
+  text-align: left;
+  font-size: 0.8rem;
+  font-family: "courier new";
+
+}
+
+#blackmargin{
+  background-color: black;
+
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+#whoami{
+  background-color: white;
+}
+
+#aboutme h3{
+  text-decoration: underline;
+}
+/*
+--Education Styling
+*/
+
+body{
+  background-color: beige;
+  text-align: center;
+  opacity: 90%;
+}
+
+body h1{
+  padding-top: 5%;
+  color:  CadetBlue;
+  text-align: center;
+}
+
+
+body h4{
+  text-decoration: underline;
+}
+
+#education{
+  background-image: url('blackleather.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 70%;
+
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+#education .experience-row{
+  background-image: url('diploma.jpeg');
+  background-position: center;
+  background-size: cover;
+
+  border-radius: 2rem;
+
+}
+
+#edintro{
+  background-image: url('gold.jpg');
+  background-position: center;
+  background-size: cover;
+
+  border-radius: 1rem;
+
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#edheader p{
+    color: black;
+    font-family: "Lucida Handwriting";
+
+    padding-bottom: 3%;
+}
+
+#edheader h1{
+  color: black;
+  font-family: "Lucida Handwriting";
+}
+
+#filler{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.resume-picture{
+  width: 33%;
+  float: right;
+  padding: 5%;
+}
+
+.resume-header{
+  padding: 6%;
+}
+.experience-row, .hobbies, .projects{
+ display: inline-block;
+
+ clear: both;
+ margin: auto;
+ max-width: 75%;
+
+ text-align: center;
+}
+
+.experience-row p{
+  color: black;
+
+}
+.experience-col{
+  display: table-cell;
+  height: 25%;
+}
+
+/*
+--Experience Styling
+*/
+
+#experiences{
+background-color: white;
+padding-top: 5%;
+padding-bottom: 10%;
+}
+
+#experiences img{
+  border-radius: 5rem;
+}
+
+#expheader{
+  font-family: "times new roman";
+}
+
+#expheader h1{
+  font-size: 2rem;
+}
+
+.experience-picture{
+  width: 33%;
+  float: left;
+  padding: 5%;
+  margin-right: 10%;
+}
+
+.experience-picture-right{
+  width: 33%;
+  float: right;
+  padding: 5%;
+
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.exptext{
+  margin-left: 5%;
+  padding-right: 50%;
+  padding-bottom: 10%;
+  font-family: "courier new";
+}
+
+.exptext h4{
+  color: DarkOliveGreen;
+  font-size: 1.25rem;
+
+
+  text-decoration: none;
+}
+
+.exptext p{
+  color: navy;
+}
+
+.exptext span{
+  font-family: garamond;
+  color: black;
+  font-size: 1rem;
+}
+
+#expfooter{
+  font-family: garamond;
+  border-radius: 5rem;
+}
+
+#expfooter img{
+  border-radius: 3rem;
+  width: 25%;
+}
+
+/*
+--Image link Styling
+*/
+
+
+.classrow{
+  content: "";
+  display: table;
+  clear: both;
+  margin: 0 33%;
+}
+
+
+
+#linkedin, #gmail{
+  display: inline-block;
+
+  float: center;
+
+  height: 25%;
+  width: 25%:
+  padding: 0 25%;
+
+  border-radius: 2rem;
+}
+
+/*
+--Hobbies link Styling
+*/
+#cloud{
+  background-color: white;
+  color: grey;
+
+  padding-top: 5%;
+}
+
+#cloud h3{
+  font-family: "helvetica";
+  font-size: 2rem;
+  font-weight: bold;
+
+  color: darkgrey;
+
+}
+
+.vertline{
+  display: inline-block;
+  width: 100%;
+
+  padding-bottom: 2%;
+
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#l0{
+  color: aliceblue;
+}
+
+#l1{
+ color: gainsboro;
+}
+
+#l2{
+  color: darkgrey;
+}
+
+#l3{
+  color: dimgrey;
+}
+
+.hobbies{
+  display: inline-block;
+  float: center;
+
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+#lifeintro{
+  display:inline-block;
+  float: center;
+
+  padding-bottom: 10%;
+
+  font-family: "lucida console";
+}
+
+#skillsec{
+  padding-bottom: 20%;
+
+  background-image: url('vertical.jpg');
+  background-size: cover;
+
+  font-family: garamond;
+}
+
+#skillsec h4{
+  color: midnightblue;
+  text-decoration: none;
+
+  font-size: 1.25rem;
+  font-family: "lucida console";
+
+}
+
+#divider{
+  display: inline-block;
+  float: left;
+
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: "courier new";
+  color: darkslategrey;
+
+  margin-top: 20%;
+  margin-bottom: 20%;
+
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+
+
+#photoig, #foodig{
+  display: inline-block;
+  width:20%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  float: left;
+}
+
+#photoig{
+  float: right;
+}
+
+#foodpara, #photopara{
+  display:inline-block;
+  padding-top: 10%;
+  width: 20%;
+
+  float: left;
+  text-align: left;
+}
+
+
+#cookingpara, #fitnesspara{
+  display: inline-block;
+  float: center;
+  text-align: center;
+
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 50%;
+
+
+}
+
+#cookingpic, #fitnesspic, #miscpic{
+  display: inline-block;
+  float: center;
+
+  padding-bottom: 5%;
+  margin-bottom: 2%;
+  border-radius: 5%;
+  width:100%;
+}
+
+#fitnesspic, #miscpic{
+  width: 50%;
+}
+
+.miscpara{
+  display: inline-block;
+  text-align: center;
+  width: 75%;
+}
+
+#creativewriting{
+  display: inline-block;
+  float: center;
+
+  width: 50%;
+  padding-top: 2%;
+
+
+  font-family: "courier new";
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+#creativewriting ul li{
+  color: white;
+  text-decoration: none;
+}
+#creativewritingpieces{
+  color: white;
+  text-decoration: none;
+}
+
+#gundams{
+  display: inline-block;
+
+  float: left;
+  width: 25%;
+  padding-left: 5%;
+}
+
+#craneanimals{
+  display: inline-block;
+  float: right;
+  width: 25%;
+  padding-right: 5%;
+
+}
+
+#elders, #siblings{
+  width: 30%;
+  height: 20%;
+  border-radius: 5%;
+}
+
+/*
+--Image link Styling
+*/
+footer{
+  padding-top: 5%;
+  padding-bottom: 10%;
+
+  background-color: black;
+  color: white;
+
+  font-family: "monaco";
+}
+
+footer span{
+  font-size: 2rem;
+
+  text-decoration: underline;
+  font-family: "courier new";
+}
+
+footer a{
+  color: white;
+
+  font-weight: bold;
+  font-family: "courier new";
+
+  text-decoration: none;
+
+}
+
+footer p{
+  display: inline-block;
+  float: center;
+
+  padding-bottom: 2%;
+  width: 55%;
+
+}
+
+footer ul{
+    list-style: none;
+
+}
+
+footer ul li{
+  display: inline-block;
+  text-decoration: underline;
+
+  vertical-align: top;
+
+  color: black;
+  font-family: "courier new";
+
+  margin: 0;
+  padding: 0.5rem;
+  padding-top: 1.5rem;
+}
+
+#contact{
+  font-size: 1.5rem;
+  width: 60%;
+}
+
+
+#dash{
+  display: inline-block;
+  float: center;
+
+  text-decoration: none;
+  margin-left: 40%;
+  margin-right: 40%;
+}
