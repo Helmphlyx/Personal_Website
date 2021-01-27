@@ -305,17 +305,22 @@ body h4{
  margin: auto;
  max-width: 75%;
 
- text-align: center;
+ text-align: left;
 }
 
 .experience-row p{
   color: black;
+}
+
+.experience-row span{
+  text-align: left;
 
 }
 .experience-col{
   display: table-cell;
   height: 25%;
 }
+
 
 /*
 --Experience Styling
